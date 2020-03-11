@@ -92,7 +92,8 @@ a:hover {
 }
 
 .profile .content button {
-    width: 180px
+    width: 180px;
+    font-weight: 600;
 }
 
 .bio .is-fluid {
