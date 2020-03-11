@@ -189,7 +189,7 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
     .container.is-fluid {
          padding-left: 10px;
          padding-right: 10px;
@@ -204,6 +204,11 @@ a:hover {
     }
     .profile .content button {
         width: 220px
+    }
+    .skills .column {
+        margin-bottom: 10px;
+        padding-bottom: 30px;
+        border-bottom: 0.1rem solid #dbdce9;
     }
 }
 
