@@ -194,6 +194,23 @@ a:hover {
          padding-left: 10px;
          padding-right: 10px;
     }
+    .profile .content figure img {
+        height: auto;
+        width: auto;
+    }
+    .content figure {
+         margin-left: 0;
+         margin-right: 0;
+    }
+    .profile .content button {
+        width: 220px
+    }
+}
+
+@media screen and (max-width: 529px) {
+    .profile .content button {
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (min-width: 1022px) and (max-width: 1215px) {
